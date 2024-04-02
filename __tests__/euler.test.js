@@ -1,8 +1,8 @@
-import { coinCounter } from "../src/coin-counter";
+import { multiples } from "../src/euler";
 
-describe('coinCounter', () => {
+describe('multiples', () => {
 
-  test('should return a string', () => {
-    expect(typeof coinCounter(4.75)).toEqual('string');
+  test('should return a number', () => {
+    expect(typeof multiples()).toEqual('number');
   });
 })
