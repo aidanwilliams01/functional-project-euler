@@ -16,4 +16,8 @@ describe('fibonacci', () => {
   test('should return a number', () => {
     expect(typeof fibonacci()).toEqual('number');
   });
+
+  test('should return the sum of even values in the Fibonacci sequence whose values do not exceed a given argument', () => {
+    expect(fibonacci(4000000)).toEqual(4613732);
+  });
 });
